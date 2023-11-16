@@ -40,7 +40,7 @@ public class DataGenerator {
     }
 
     public static String getRandomPassword() {
-        String password= faker.internet().password();
+        String password = faker.internet().password();
         return password;
     }
 
